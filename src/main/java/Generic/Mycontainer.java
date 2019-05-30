@@ -14,9 +14,11 @@ public class Mycontainer<T extends Animal> {
         Animal animal = new Animal();
         Life life = new Life();
         Human human = new Human();
-        Mycontainer<Animal> ss = new Mycontainer<>(animal);
-        ss.t.say();
+//        Mycontainer<Animal> ss = new Mycontainer<>(animal);
+//        ss.t.say();
 
 
+        Life life1 = new Human();
+        life1.say();
     }
 }
