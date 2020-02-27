@@ -1,8 +1,15 @@
 package sword;
 
+import java.util.Arrays;
+
 public class RepeatNum {
     public static void main(String[] args) {
         int[] arr = {2,3,1,0,4,5,3};
+
+        int[] subArr = Arrays.copyOfRange(arr, 0, 0);
+        System.out.println(subArr.length);
+
+
         System.out.println(repeatV2(arr));
     }
 
